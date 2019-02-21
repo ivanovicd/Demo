@@ -1,0 +1,11 @@
+{
+    "name": "Personal ruleset",
+    "description": "These rules must be respected by all the AL code written within the company.",
+    "rules": [
+        {
+            "id": "AL0468",
+            "action": "Hidden",
+            "justification": "This diagnostic helps to improve readability. It must be respected in all cases."
+        }
+    ]
+}

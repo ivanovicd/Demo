@@ -1,0 +1,20 @@
+{
+  "id": "9c691b79-2e38-4643-8db0-d8379b46a3a7",
+  "name": "Demo",
+  "publisher": "Default publisher",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "13.0.0.0",
+  "application": "13.0.0.0" ,
+  "capabilities": []
+  
+  
+}
