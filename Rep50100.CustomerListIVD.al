@@ -61,10 +61,6 @@ report 50100 "CustomerListIVD"
                 {
 
                 }
-                column(Salesperson_Code; "Salesperson Code")
-                {
-
-                }
 
                 trigger OnAfterGetRecord()
                 begin
