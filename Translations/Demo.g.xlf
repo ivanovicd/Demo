@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="Demo">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 571327055 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Level</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table LevelIVD - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 571327055 - Field 1789400218 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Level</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table LevelIVD - Field Level - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 571327055 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table LevelIVD - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 571327055 - Field 3607302873 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Treshhold</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table LevelIVD - Field Treshhold - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2196204338 - NamedType 848472796" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Warning Level is set to High!</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit DemoMgtIVD - NamedType ErrorTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2196204338 - NamedType 1916287837" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Warning Level is set to Low!</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit DemoMgtIVD - NamedType MessageTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1307070629 - NamedType 3605083694" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer:</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ReportManagement-IVD - NamedType Customerbl</note>
+        </trans-unit>
+        <trans-unit id="Page 1569568697 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Level List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page LevelListIVD - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3493994763 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Level Card</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page LevelCardIVD - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3567802399 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CustomerListIVD - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3567802399 - Control 4268412030 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Print Open Entries Only</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CustomerListIVD - Control OnlyOpenEntries - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3784572692 - Field 1834063840 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Warning Level</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension CustomerTableExtIVD - Field WarningLevel - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3665144701 - EnumValue 3371220206 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum CustomerWarningLevelIVD - EnumValue None - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3665144701 - EnumValue 3592530208 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Low</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum CustomerWarningLevelIVD - EnumValue Low - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3665144701 - EnumValue 3116416530 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>High</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum CustomerWarningLevelIVD - EnumValue High - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

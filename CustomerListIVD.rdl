@@ -495,9 +495,6 @@ End Function
         <Field Name="RemainingAmtLCFormat">
           <DataField>RemainingAmtLCFormat</DataField>
         </Field>
-        <Field Name="Salesperson_Code">
-          <DataField>Salesperson_Code</DataField>
-        </Field>
       </Fields>
       <Query>
         <DataSourceName>DataSource</DataSourceName>

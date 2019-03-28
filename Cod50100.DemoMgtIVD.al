@@ -35,7 +35,17 @@ codeunit 50100 "DemoMgtIVD"
         ErrorTxt: Label 'Warning Level is set to High!';
         MessageTxt: Label 'Warning Level is set to Low!';
 
-
+    [EventSubscriber(ObjectType::Page, Page::"Headline RC Order Processor", 'OnOpenPageEvent', '', false, false)]
+    local procedure MyProcedure()
+    var
+        LvlIVD: Record LevelIVD;
+        v: Notification;
+    begin
+        //IF LvlIVD.IsEmpty() then begin
+        v.Message('blabla');
+        v.Send();
+        //end;
+    end;
 
 
 }

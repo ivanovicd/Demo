@@ -5,7 +5,7 @@ codeunit 50101 "UpdateWarningLevelIVD"
         Customer: Record Customer;
     begin
         Customer.RESET;
-        IF Customer.FindFirst() THEN
+        IF Customer.FindSet(true) THEN
             REPEAT
                 CheckAndUpdateCustomerWarningLevel(Customer);
             UNTIL Customer.NEXT = 0;
@@ -14,13 +14,11 @@ codeunit 50101 "UpdateWarningLevelIVD"
     procedure CheckAndUpdateCustomerWarningLevel(var Customer: Record Customer)
     var
         NewWarningLevel: Enum CustomerWarningLevelIVD;
-        Customer2: Record Customer;
     begin
         NewWarningLevel := CalcWarningLevel(Customer);
         IF Customer.WarningLevel <> NewWarningLevel THEN BEGIN
-            Customer2.GET(Customer."No.");
-            Customer2.WarningLevel := NewWarningLevel;
-            Customer2.MODIFY();
+            Customer.WarningLevel := NewWarningLevel;
+            Customer.MODIFY();
         END;
     end;
 
